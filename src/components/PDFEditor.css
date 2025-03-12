@@ -1,0 +1,96 @@
+.pdf-editor-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    /* background: url('/public/pdf-edit.png'); */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.pdf-editor-container h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.pdf-editor-container input[type="file"] {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pdf-editor-container input[type="file"]:hover {
+    background: #ecf0f1;
+}
+
+
+.ql-container {
+    min-height: 200px;
+    font-size: 16px;
+}
+
+
+/* Buttons Container */
+.pdf-editor-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.pdf-editor-container button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.pdf-editor-container button:nth-child(2) {
+    background: #2ecc71;
+    color: white;
+}
+
+.pdf-editor-container button:nth-child(2):hover {
+    background: #27ae60;
+}
+
+
+.pdf-editor-container button:nth-child(3) {
+    background: #f39c12;
+    color: white;
+}
+
+.pdf-editor-container button:nth-child(3):hover {
+    background: #e67e22;
+}
+
+.pdf-editor-container button:nth-child(4) {
+    background: #3498db;
+    color: white;
+}
+
+.pdf-editor-container button:nth-child(4):hover {
+    background: #2980b9;
+}
+
+.pdf-download-btn{
+    background: #3498db;
+    color: white;
+}
+
+.pdf-download-btn:hover{
+    background: #2980b9;
+}

@@ -1,0 +1,124 @@
+/* TextEditor.css */
+.text-editor-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text-editor-container h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.text-editor-textarea {
+    width: 100%;
+    min-height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.text-editor-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.text-editor-container button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.text-editor-container button:nth-child(2) {
+    background: #2ecc71;
+    color: white;
+}
+
+.text-editor-container button:nth-child(2):hover {
+    background: #27ae60;
+}
+
+.text-editor-container button:nth-child(3) {
+    background: #f39c12;
+    color: white;
+}
+
+.text-editor-container button:nth-child(3):hover {
+    background: #e67e22;
+}
+
+.text-editor-container button:nth-child(4) {
+    background: #3498db;
+    color: white;
+}
+
+.text-editor-container button:nth-child(4):hover {
+    background: #2980b9;
+}
+
+.text-history-btn {
+    background: #f39c12;
+    color: white;
+}
+
+.text-history-btn:hover {
+    background: #e67e22;
+}
+
+.text-save-btn {
+    background: #2ecc71;
+    color: white;
+}
+
+.text-save-btn:hover {
+    background: #27ae60;
+}
+
+.text-download-btn {
+    background: #3498db;
+    color: white;
+}
+
+.text-download-btn:hover {
+    background: #2980b9;
+}
+
+.text-undo-btn, .text-redo-btn{
+    background: #95a5a6;
+    color: white;
+}
+.text-undo-btn:hover, .text-redo-btn:hover{
+    background: #7f8c8d;
+}
+
+.text-editor-container input[type="file"] {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    border: 2px solid #3498db; 
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    /* font-size: 14px; */
+    /* font-weight: bold; */
+    color: #2c3e50;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.text-editor-container input[type="file"]:hover {
+    border-color: #2980b9; /* Darker blue on hover */
+}

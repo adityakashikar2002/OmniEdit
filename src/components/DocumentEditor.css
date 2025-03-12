@@ -1,0 +1,50 @@
+.document-editor-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background: url('/public/pdf-edit.png'); */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.document-editor-container h2 {
+    color: #2c3e50;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.document-editor-container p {
+    color: #707171;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.document-editor-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Makes the list items appear in a row */
+    justify-content: center; /* Centers the buttons horizontally */
+}
+
+.document-editor-container li {
+    margin: 0 10px;
+    background: transparent;
+}
+
+.document-editor-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #f42e4c;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.document-editor-container a:hover {
+    background-color: #ef367a;
+    transform: translateY(-2px);
+}
