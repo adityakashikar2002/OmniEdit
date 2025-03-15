@@ -208,7 +208,7 @@ function WordToPdfConverter() {
         requestBody,
         {
           headers: {
-            Authorization: "Bearer secret_QyXSVs7VE3B6A7zM",
+            Authorization: `Bearer ${process.env.REACT_APP_BEARER_ID}`,
             "Content-Type": "application/json",
           },
         }
