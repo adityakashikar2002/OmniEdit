@@ -236,6 +236,9 @@ import HistoryPage from "./components/HistoryPage";
 import PdfEditor from "./components/PDFEditor";
 import WordEditor from "./components/WordEditor";
 import TextEditor from "./components/TextEditor";
+import WordToPdfPage from "./components/WordToPdfPage";
+import PdfToWordPage from "./components/PdfToWordPage";
+
 import "./Home.css";
 import { auth, db } from "./components/firebase";
 import { doc, getDoc } from "firebase/firestore";
@@ -292,6 +295,8 @@ function EditorApp() {
             <Link to="/editor/txt-editor">TXT Editor</Link>
             <Link to="/editor/pdf-editor">PDF Editor</Link>
             <Link to="/editor/word-editor">Word Editor</Link>
+            <Link to="/editor/convert-to-pdf">DOCX ➡ PDF</Link>
+            <Link to="/editor/convert-to-word">PDF ➡ DOCX</Link>
             <Link to="/editor/history">History</Link>
           </div>
           <div className="nav-right">
@@ -318,6 +323,8 @@ function EditorApp() {
             <Route path="/pdf-editor" element={<PdfEditor />} />
             <Route path="/word-editor" element={<WordEditor />} />
             <Route path="/history" element={<HistoryPage />} />
+            <Route path="/convert-to-pdf" element={<WordToPdfPage />} />
+            <Route path="/convert-to-word" element={<PdfToWordPage />} />
           </Routes>
         </div>
       </div>

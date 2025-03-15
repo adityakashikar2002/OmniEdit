@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import EditorApp from "./EditorApp";
 import { auth } from "./components/firebase";
 
+
 function AppWrapper() {
   const [user, setUser] = useState(null);
   const location = useLocation();
